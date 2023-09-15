@@ -93,14 +93,12 @@ textarea {
 }
 
 body {
-    background-image: url(img/aids.jpg);
-    background-repeat: no-repeat;
-}
-
-.bheader{
     background-image: url(./img/ezgif.com-webp-to-jpg.jpg);;
     margin: 40px;
 }
+
+
+
 
 header {
     display: grid;
@@ -140,7 +138,20 @@ main{
     color: white;
 }
 
-
+.ja{
+    margin-top: 15px;
+    display: flex;
+    justify-content: left;
+    
+}
+main{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: #ccc; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
 footer{
     display: flex;
     justify-content: center;
