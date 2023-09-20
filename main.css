@@ -146,24 +146,100 @@ main{
     margin-top: 15px;
     display: flex;
     justify-content: left;
-    background-color: aquamarine;
+    background-color: #FA339C;
     margin-left: 2px;
     border-radius: 40px;
+}
+
+
+
+.Ablok{
+    color: #660405  ;
+    margin-left: 28px;
+    margin-bottom: 23px;
+}
+.Bblok{
+    color:#69197C;
+}
+
+.Cblok{
+    color:#014C35;
+    margin-right: 28px;
+    padding-right: 23px;
+}
+
+
+.block-list{
+    background-color: lightsalmon;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    margin-left: 28px;
+}
+.leerachter{
+    background-color: #C0ED0C;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    margin-left: 25px;
+    margin-top: 23px;
+    width: 96%;
+    padding-top: 8px;
+    padding-left: 3px;
     
 }
 
-.Ablok{
-    color: white  ;
+.rooster {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.roosterFoto {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 40px;
+    max-height: 500px;
+
+}
+
+.roosterFoto:hover{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    border: 3px solid lightblue;
+    border-radius: 30px;
+    max-height: 525px;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+}
+
+.list-item{
+    width: 500px;
+    padding-left: 20px;
+}
+.block-list{
+    width: 94%;
+    border-radius: 40px;
+    padding: 12px;
+}
+.rond{
+    border-radius: 100%;
 }
 main{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background-color: #ccc; 
+    background-color:#BEB0FF;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 40px;
 }
+
 footer{
     display: flex;
     justify-content: center;
@@ -183,6 +259,7 @@ footer{
 
 
 }
+
 
 
 
@@ -279,6 +356,19 @@ footer{
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+}
+@media screen and (min-width: 600px) {
+    body {
+      background-color: red;
+    }
+}
+  
+  
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
